@@ -17,7 +17,7 @@ function generateControlNumber() {
         const controlNumber = (98n - remainder).toString().padStart(2, "0");
 
         document.getElementById("result").innerText = 
-            `Control number: ${controlNumber}, Full sequence: ${controlNumber}-${sequence}`;
+            `Control number: ${controlNumber}, Full Poziv Na Broj: ${controlNumber}-${sequence}`;
     } catch (error) {
         document.getElementById("result").innerText = "Invalid input or error in calculation.";
     }
